@@ -1,17 +1,92 @@
-*{background-color: #1a1a1a;
-padding: 0;
-margin: 0;/*configuraçaõ da site*/}
+* {
+  
+    padding: 0;
+    margin: 0;
+    /* configuraçaõ da site */
+}
+body{
+      background-color: #000000;
+}
+.banner {
+    width: 860px;
+    height: 450px;
+    background-image: url("assents/controle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
 
-#banner{width:750px ;height: 450px}
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 20px;
+    /*configuracao das palavras*/
+}
 
-LI A {text-decoration: none;
-color: #ffff;
-font-size: 20px;
-padding-left: 20px;/*configuracao das palavras*/}
+ul {
+    display: flex;
+    flex-direction: row;
 
-nav{display: flex; 
-    flex-direction: row;/*texto alinhado*/}
+    /*texto alinhado*/
+}
 
-li{list-style: none;/*remove os pontos do texo*/}
+li {
+    list-style: none;
+    /*remove os pontos do texo*/
+}
 
-#logo{width: 100px; height: 100px;}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.bi {
+    font-size: 35px;
+    height: 15px;
+    width: 15px;
+    /*alterar os icones*/
+    color: #4c544c;
+}
+
+.texto-banner{
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+.btn{
+height: 40px;
+width: 130px;
+background-color: #333333;
+border-radius: 55px; /*Deixa a borda redonda*/ 
+border: none; /*Serve para remover a borda*/
+color: #ffffff; /*Mudar a cor da fonte*/
+font-weight: bold;
+font-size: 19px;
+}
+
+.banner-estrutura{
+    
+    width: 220px;
+}
+
+.section-banner{
+    display: flex;
+    justify-content: center; /*Alinhar os elementos*/
+
+}
+.banner{
+
+}
