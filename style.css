@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* configuraçaõ do site */
+}
+
+.banner {
+    width: 750px;
+    height: 450px;
+    background-image: url("assents/controle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    padding-left: 20px;
+    /*configuracao das palavras*/
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /*texto alinhado*/
+}
+
+
+
+li {
+    list-style: none;
+    /*remove os pontos do texo*/
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.bi {
+    font-size: 35px;
+    height: 15px;
+    width: 15px;
+    /*alterar os icones*/
+    color: blanchedalmond;
+}
+
+.texto-banner {
+    color: aliceblue;
+    font-size: 25px;
+    justify-content: center;
+    
+   
+}
+
+
+.btn {
+    height: 40px;
+    width: 130px;
+    border-radius: 55px;
+    background-color: #333333;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner-estrutura {
+    width: 220px;/*alterar o tamanho da minha caixa*/ 
+    padding: 30px;  
+  
+}
+ 
+.section-banner {
+display: flex;
+justify-content: center; /*formata o alinhamento do banner*/
+align-items: center;
+}
+
+.titulo{ font-size: 35px;
+
+color: floralwhite;
+}
+
+.estrutura-titulo {
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+.Produtos{
+height: 350px;
+width: 200px;
+}
+
+.valor{
+color: white;
+font-size: 15px;
+font-weight: bold;
+}
+
+.card-texto{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+
+.card{
+
+    color: floralwhite ;
+    width: 250px;
+    height: 430px;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+      
+}
+
+.vermelho{
+background-color: red;
+}
+
+.amarelo {
+background-color: yellow;}
+
+.azul{
+background-color: blue;}
+
+.rosa{
+    background-color: pink;
+}
+.branco{
+    background-color: white;
+}
+.lilás{
+    background-color: purple;
+}
+
+.verde{
+    background-color: green;
+}
+.marrom{
+    background-color: brown;
+}
+.cinza{
+    background-color: #333333;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 5px;
+}
+
+.carousel{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 10px; /*Ele dar uma distância igual entre os elementos*/
+}
+
+.banner-xbox{
+    width: 750px;
+    height: 450px;
+    background-image: url("assents/x-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-xbox{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner-xbox{
+    display: flex;
+    justify-content: end;
+}
+
+.xbox-caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin: 20px;
+}
+
+.estrutura-texto1{
+    margin: 30px;
+}
+
+.texto-recursos{
+    color: dimgray;
+    display: flex;
+}
+
+.estrutura-universal{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 160px;
+    margin: 10px;
+}
+
+.estrutura-universal2{
+    display: flex;
+    background-color: #333333;
+}
+
+.estrutura-texto2{
+    color: #333333;
+    font-size: 17px;
+    padding: 30px;
+}
+
+.caixa-icones2{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    gap: 30px;
+    padding-top: 10px;
+    background-color: #333333;
+}
+
+.logo2{
+    display: flex;
+    justify-content: end;
+}
